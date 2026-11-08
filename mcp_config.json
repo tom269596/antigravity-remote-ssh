@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "remote-ssh": {
+      "command": "uvx",
+      "args": ["mcp-ssh-session"],
+      "env": {}
+    }
+  }
+}

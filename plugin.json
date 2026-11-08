@@ -1,0 +1,25 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "remote-ssh",
+  "displayName": "Remote SSH Linux Ops",
+  "description": "通过 SSH 连接远程 Linux 服务器，安全执行 Shell 命令、实时监控系统负载、管理服务进程，并通过 SFTP 实现非交互式文件读写与配置运维排障。",
+  "version": "0.1.0",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "检查远程服务器的系统负载与资源使用情况（CPU、内存、磁盘）",
+    "查看远程 Nginx/Docker 服务状态及错误日志并排障",
+    "备份并修改远程服务器上的配置文件"
+  ],
+  "author": {
+    "name": "User & Antigravity"
+  },
+  "keywords": [
+    "ssh",
+    "linux",
+    "devops",
+    "remote",
+    "sftp",
+    "shell",
+    "troubleshooting"
+  ]
+}
